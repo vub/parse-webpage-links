@@ -1,0 +1,22 @@
+{
+  "name": "parse-webpage-links",
+  "version": "0.0.5",
+  "description": "CLI parse link from webpage",
+  "main": "./cli/parse-links.cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bui Minh Vu",
+  "license": "ISC",
+  "dependencies": {
+    "headless-chrome-crawler": "^1.8.0"
+  },
+  "bin": {
+    "parse-webpage-links": "./cli/parse-links.cli.js",
+    "parse-links": "./cli/parse-links.cli.js"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/vub/parse-webpage-links"
+  }
+}
